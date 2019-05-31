@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\siddh\\OneDrive\\Desktop\\SurfaceCamera\\SurfaceCamera\\SurfaceCamera.csproj": {}
+    "C:\\Surface-Camera-Xamarin-Android\\SurfaceCamera\\SurfaceCamera.csproj": {}
   },
   "projects": {
-    "C:\\Users\\siddh\\OneDrive\\Desktop\\SurfaceCamera\\SurfaceCamera\\SurfaceCamera.csproj": {
+    "C:\\Surface-Camera-Xamarin-Android\\SurfaceCamera\\SurfaceCamera.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\siddh\\OneDrive\\Desktop\\SurfaceCamera\\SurfaceCamera\\SurfaceCamera.csproj",
+        "projectUniqueName": "C:\\Surface-Camera-Xamarin-Android\\SurfaceCamera\\SurfaceCamera.csproj",
         "projectName": "SurfaceCamera",
-        "projectPath": "C:\\Users\\siddh\\OneDrive\\Desktop\\SurfaceCamera\\SurfaceCamera\\SurfaceCamera.csproj",
+        "projectPath": "C:\\Surface-Camera-Xamarin-Android\\SurfaceCamera\\SurfaceCamera.csproj",
         "packagesPath": "C:\\Users\\siddh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\siddh\\OneDrive\\Desktop\\SurfaceCamera\\SurfaceCamera\\obj\\",
+        "outputPath": "C:\\Surface-Camera-Xamarin-Android\\SurfaceCamera\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -47,10 +47,6 @@
               "version": "[28.0.0.1, )"
             },
             "Xamarin.Android.Support.Design": {
-              "target": "Package",
-              "version": "[28.0.0.1, )"
-            },
-            "Xamarin.Android.Support.v4": {
               "target": "Package",
               "version": "[28.0.0.1, )"
             }

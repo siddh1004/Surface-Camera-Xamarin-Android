@@ -4,5 +4,6 @@
     <SelectedDevice>Samsung SM-G610F</SelectedDevice>
     <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
+    <DefaultDevice>nexuspro</DefaultDevice>
   </PropertyGroup>
 </Project>

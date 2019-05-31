@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Threading.Tasks;
 using Android;
 using Android.App;
 using Android.Content.PM;
 using Android.Content.Res;
 using Android.OS;
-using Android.Support.V4.App;
-using Android.Support.V4.Content;
 using Android.Views;
 using Android.Widget;
 using Java.Lang;
@@ -93,23 +90,6 @@ namespace SurfaceCamera
             FixElementsPosition(newConfig.Orientation);
         }
 
-        public static bool CheckAndRequestCameraAndStoragePermission(Activity activity)
-        {
-            if ((int)Build.VERSION.SdkInt < 23)
-            {
-                return true;
-            }
-
-            if (ContextCompat.CheckSelfPermission(activity, Manifest.Permission.Camera) != (int)Permission.Granted ||
-                ContextCompat.CheckSelfPermission(activity, Manifest.Permission.WriteExternalStorage) != (int)Permission.Granted)
-            {
-                ActivityCompat.RequestPermissions(activity, CameraPerms, RequestCameraId);
-                return false;
-            }
-
-            return true;
-        }
-
         private bool SetCameraInstance()
         {
             if (_camera != null)
@@ -192,7 +172,7 @@ namespace SurfaceCamera
             }
         }
 
-        private void FixElementsPosition(Android.Content.Res.Orientation orientation)
+        private void FixElementsPosition(Orientation orientation)
         {
             var captureButton = (Button)FindViewById(Resource.Id.button_capture);
             FrameLayout.LayoutParams layout = (FrameLayout.LayoutParams)captureButton.LayoutParameters;
